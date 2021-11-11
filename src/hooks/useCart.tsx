@@ -38,7 +38,13 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
     }
     return [];
   });
-
+  /**
+   *
+   * Verificando alteração do carrinho
+   * e atualizando o localstorage
+   *
+   *
+   */
   const prevCartRef = useRef<Product[]>();
   useEffect(() => {
     prevCartRef.current = cart;
@@ -49,7 +55,12 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       localStorage.setItem("@RocketShoes:cart", JSON.stringify(cart));
     }
   }, [cart, cartPreviousValue]);
-
+  /**
+   *
+   * Add Produto (Função)
+   *
+   *
+   */
   const addProduct = async (productId: number) => {
     try {
       //Criando um novo array para manipular o cart
@@ -91,7 +102,12 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       toast.error("Erro na adição do produto");
     }
   };
-
+  /**
+   *
+   * Remover Produto (Função)
+   *
+   *
+   */
   const removeProduct = (productId: number) => {
     try {
       const updatedCart = [...cart];
@@ -108,7 +124,12 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       toast.error("Erro na remoção do produto");
     }
   };
-
+  /**
+   *
+   * Atualizar Quantidade (Função)
+   *
+   *
+   */
   const updateProductAmount = async ({
     productId,
     amount,
