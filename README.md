@@ -3,7 +3,6 @@
 
   &#xa0;
 
-  <!-- <a href="https://01githubexplorer.netlify.com">Demo</a> -->
 </div>
 
 <h1 align="center">ROCKETSHOES - Criando Hook de carrinho de compra</h1>
@@ -22,14 +21,6 @@
 
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  01 Github Explorer 🚀 Em construção...  🚧
-</h4> 
-
-<hr> -->
-
 <p align="center">
   <a href="#dart-sobre-o-desafio">Sobre</a> &#xa0; | &#xa0; 
    <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
@@ -47,6 +38,7 @@
  </p>
 <br>
 
+&#xa0; 
 
 ## :dart: Sobre o desafio ##
 
@@ -62,6 +54,8 @@ Essa será uma aplicação onde o seu principal objetivo é criar um hook de 
 - Exibição de mensagens de erro;
 - Entre outros.
 
+&#xa0; 
+
 ## :rocket: Tecnologias ##
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -71,9 +65,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+&#xa0; 
+
 ## :white_check_mark: Pré requisitos ##
 
 Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+
+&#xa0; 
 
 ## :checkered_flag: Começando ##
 
@@ -92,7 +90,8 @@ $ yarn start
 
 # O app vai inicializar em <http://localhost:3000>
 ```
-
+ 
+&#xa0; 
 
 ## :thinking: Como contribuir
 
@@ -107,6 +106,7 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
+&#xa0; 
 
 Feito com :heart: por <a href="https://github.com/thiilins" target="_blank">Thiago Lins</a>
 
